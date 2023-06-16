@@ -1,4 +1,4 @@
-pragma solidity >=0.7.0 <0.8.7;
+pragma solidity >=0.4.22 <0.7.0;
 /**
  * @title Medical records
  * @dev Store & retreive patient details in Medicalrecords
