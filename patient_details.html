@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Patient Details</title>
+</head>
+    <body>
+	<p><a href="hospital.html"><button type="submit" class="hidden" style='margin-right:16px'>Hospital Registration</button></a><a href="doctor.html"><button type="submit" class="hidden" style='margin-right:16px'>Doctor Registration</button></a><a href="patient.html"><button type="submit" class="hidden" style='margin-right:16px'>Patient Registration</button></a><a href="record_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Medical Record</button></a><a href="examine_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Patient Examine details</button></a></p>
+      
+        <h1>Display Patient Details</h1>
+
+
+       <tr>
+			<td>Enter Patient Id:</td>
+			<td><input type="text" id="tid2" name="tid2"></td>
+		  </tr>
+		  
+		 <tr><td><input type="button" onclick="get_details()" value="Get Details"></td></tr>
+		 
+        <h3>Patient Details</h3>
+        <form>
+		<table style="width:25%">
+		
+  
+            <tr>
+			<td> Patient Name:</td>
+			<td><div id="get_name"></div></td>
+		  </tr>
+		  
+		  <tr>
+			<td>Age:</td>
+			<td><div id="get_age"></div></td>
+		  </tr>
+		  <tr>
+			<td>Gender:</td>
+			<td><div id="get_gen"></div></td>
+		  </tr>
+		  <tr>
+			<td>Height(in ft):</td>
+			<td><div id="get_hght"></div></td>
+		  </tr>
+		  <tr>
+			<td>Weight(in kg):</td>
+			<td><div id="get_weig"></div></td>
+		  </tr>
+		  <tr>
+			<td>Address:</td>
+			<td><div id="get_addr"></div></td>
+		  </tr>
+		  <tr>
+			<td>Phone Number:</td>
+			<td><div id="get_pno"></div></td>
+		  </tr>
+		  <tr>
+			<td>Email Id:</td>
+			<td><div id="get_email"></div></td>
+		  </tr>
+		  <tr>
+			<td>Date:</td>
+			<td><div id="get_date"></div></td>
+		  </tr>
+		</table>
+        </form>  
+		<h3>Attendant Details</h3>
+        <form>
+		<table style="width:25%">
+  
+            <tr>
+			<td> Attendant Name:</td>
+			<td><div id="get_aname"></div></td>
+		  </tr>
+		  
+		  <tr>
+			<td>Attendant Relation</td>
+			<td><div id="get_rel"></div></td>
+		  </tr>
+		  <tr>
+			<td>Phone Number</td>
+			<td><div id="get_apno"></div></td>
+		  </tr>
+		  
+		</table>
+        </form>  
+    </body>
+</html>
